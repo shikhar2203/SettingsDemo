@@ -22,6 +22,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         myTable.dataSource = self
         
         myTable.register(UINib(nibName: "CustomCell", bundle: nil), forCellReuseIdentifier: "customcell")
+        myTable.register(UINib(nibName: "HeaderCell", bundle: nil), forCellReuseIdentifier: "headercell")
         
     }
     
@@ -41,12 +42,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         print("\(options[indexPath.row]) is Pressed.")
     }
     
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Settings"
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerCell = myTable.dequeueReusableCell(withIdentifier: "headercell") as! HeaderCell
+        headerCell.tableTitle.text = "Settings"
+        return headerCell
     }
-    
-    
 
+    
 
 }
 

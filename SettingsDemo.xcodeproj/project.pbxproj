@@ -15,6 +15,8 @@
 		E38B75052AA3987100CB3F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38B75032AA3987100CB3F42 /* LaunchScreen.storyboard */; };
 		E38B750E2AA39AAE00CB3F42 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B750C2AA39AAE00CB3F42 /* CustomCell.swift */; };
 		E38B750F2AA39AAE00CB3F42 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E38B750D2AA39AAE00CB3F42 /* CustomCell.xib */; };
+		E3FA63F02AA39EFF00A90B22 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FA63EE2AA39EFF00A90B22 /* HeaderCell.swift */; };
+		E3FA63F12AA39EFF00A90B22 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3FA63EF2AA39EFF00A90B22 /* HeaderCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E38B75062AA3987100CB3F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E38B750C2AA39AAE00CB3F42 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		E38B750D2AA39AAE00CB3F42 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		E3FA63EE2AA39EFF00A90B22 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		E3FA63EF2AA39EFF00A90B22 /* HeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				E38B75062AA3987100CB3F42 /* Info.plist */,
 				E38B750C2AA39AAE00CB3F42 /* CustomCell.swift */,
 				E38B750D2AA39AAE00CB3F42 /* CustomCell.xib */,
+				E3FA63EE2AA39EFF00A90B22 /* HeaderCell.swift */,
+				E3FA63EF2AA39EFF00A90B22 /* HeaderCell.xib */,
 			);
 			path = SettingsDemo;
 			sourceTree = "<group>";
@@ -131,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3FA63F12AA39EFF00A90B22 /* HeaderCell.xib in Resources */,
 				E38B75052AA3987100CB3F42 /* LaunchScreen.storyboard in Resources */,
 				E38B75022AA3987100CB3F42 /* Assets.xcassets in Resources */,
 				E38B750F2AA39AAE00CB3F42 /* CustomCell.xib in Resources */,
@@ -146,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E38B74FD2AA3987000CB3F42 /* ViewController.swift in Sources */,
+				E3FA63F02AA39EFF00A90B22 /* HeaderCell.swift in Sources */,
 				E38B74F92AA3987000CB3F42 /* AppDelegate.swift in Sources */,
 				E38B750E2AA39AAE00CB3F42 /* CustomCell.swift in Sources */,
 				E38B74FB2AA3987000CB3F42 /* SceneDelegate.swift in Sources */,
