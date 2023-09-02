@@ -10,9 +10,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var myTable: UITableView!
-    
     var options = ["VPN", "Screen Time", "General", "Accessibility", "Privacy & Security", "Passwords", "Safari", "News", "Maps", "Shortcuts", "Siri & Search", "Photos", "Developer"]
-    
     var image = ["pic1", "pic2", "pic3", "pic4", "pic5", "pic6", "pic7", "pic8", "pic9", "pic10", "pic11", "pic12", "pic13"]
     
     override func viewDidLoad() {
@@ -23,7 +21,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         myTable.register(UINib(nibName: "CustomCell", bundle: nil), forCellReuseIdentifier: "customcell")
         myTable.register(UINib(nibName: "HeaderCell", bundle: nil), forCellReuseIdentifier: "headercell")
-        
     }
     
     
@@ -47,8 +44,5 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         headerCell.tableTitle.text = "Settings"
         return headerCell
     }
-
-    
-
 }
 
